@@ -1,7 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import TheHeader from './components/layout/InitialHeader.vue'
+import HomeView from './features/home/views/HomeView.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <div class="bg-surface-container-lowest text-on-surface min-h-screen overflow-x-hidden">
+    <TheHeader />
+    <HomeView />
+  </div>
 </template>
