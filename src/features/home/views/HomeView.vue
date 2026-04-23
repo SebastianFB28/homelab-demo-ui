@@ -1,5 +1,7 @@
 <script setup>
-// Eliminamos la importación de la imagen ya que no la usaremos
+
+import TechMarquee from '../../../components/TechMarquee.vue';
+
 </script>
 
 <template>
@@ -31,5 +33,8 @@
 
       </div>
     </section>
+
+    <TechMarquee />
+
   </main>
 </template>
