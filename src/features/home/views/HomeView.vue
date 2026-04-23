@@ -1,6 +1,10 @@
 <script setup>
 
-import TechMarquee from '../../../components/TechMarquee.vue';
+import TechMarquee from '../components/TechMarquee.vue';
+import HardwareSpecs from '../components/HardwareSpecs.vue'
+import PerformanceMonitor from '../components/PerformanceMonitor.vue'
+import ProjectsSection from '../components/ProjectsSection.vue'
+import AppFooter from '../../../components/fotters/AppFooter.vue'
 
 </script>
 
@@ -35,6 +39,10 @@ import TechMarquee from '../../../components/TechMarquee.vue';
     </section>
 
     <TechMarquee />
+
+    <HardwareSpecs />
+    <PerformanceMonitor />
+    <ProjectsSection />
 
   </main>
 </template>
